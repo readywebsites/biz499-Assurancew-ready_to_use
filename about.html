@@ -499,7 +499,7 @@
           
             <div class="contact_left nav nav-tabs ms-auto " id="nav-tab" role="tablist">
 
-              <div class="insurance_wrapper nav-link active" id="life_insure_tab" data-bs-toggle="tab" data-bs-target="#life_insure"  role="tab" aria-controls="life_insure" aria-selected="true">
+              <div class="insurance_wrapper nav-link active" id="electronics_gadgets_insurance_tab" data-bs-toggle="tab" data-bs-target="#electronics_gadgets_insurance"  role="tab" aria-controls="electronics_gadgets_insurance" aria-selected="true">
                 <div class="insurance_logo">
                  
                 </div>
@@ -513,7 +513,7 @@
                 </div>
               </div>
 
-              <div class="insurance_wrapper nav-link" id="fire_insure_tab" data-bs-toggle="tab" data-bs-target="#fire_insure"  role="tab" aria-controls="fire_insure" aria-selected="false">
+              <div class="insurance_wrapper nav-link" id="home_appliances_insurance_tab" data-bs-toggle="tab" data-bs-target="#home_appliances_insurance"  role="tab" aria-controls="home_appliances_insurance" aria-selected="false">
                 <div class="insurance_logo">
                   
                 </div>
@@ -527,7 +527,7 @@
               </div>
               </div>
 
-              <div class="insurance_wrapper nav-link" id="car_insure_tab" data-bs-toggle="tab" data-bs-target="#car_insure" role="tab" aria-controls="car_insure" aria-selected="false">
+              <div class="insurance_wrapper nav-link" id="small_appliances_insurance_tab" data-bs-toggle="tab" data-bs-target="#small_appliances_insurance" role="tab" aria-controls="small_appliances_insurance" aria-selected="false">
                 <div class="insurance_logo">
                  
                 </div>
@@ -541,7 +541,7 @@
               </div>
               </div>
 
-              <div class="insurance_wrapper nav-link" id="health_insure_tab" data-bs-toggle="tab" data-bs-target="#health_insure" role="tab" aria-controls="health_insure" aria-selected="false">
+              <div class="insurance_wrapper nav-link" id="large_appliances_insurance_tab" data-bs-toggle="tab" data-bs-target="#large_appliances_insurance" role="tab" aria-controls="large_appliances_insurance" aria-selected="false">
                 <div class="insurance_logo">
                   
                 </div>
@@ -561,122 +561,120 @@
           </div>
 
           <div class="col-lg-6 col-md-12 tab-content" id="nav-tabContent">
-            <div class="contact_right tab-pane fade show active ms-auto" id="life_insure" role="tabpanel" aria-labelledby="life_insure_tab" tabindex="0">
-              
+          <div class="contact_right tab-pane fade show active ms-auto" id="electronics_gadgets_insurance" role="tabpanel" aria-labelledby="electronics_gadgets_insurance_tab" tabindex="0">
               <form class="row g-3">
-                <div class="col-12">
-                  <label  class="form-label">Name*</label>
-                  <input type="text" class="form-control" placeholder="Name">
-                </div>
-                
-                <div class="col-md-12">
-                  <label  class="form-label">Phone*</label>
-                  <input type="number" class="form-control"  placeholder="Phone">
-                </div>
-                <div class="col-md-12">
-                  <label  class="form-label">Email*</label>
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-                <div style="height: 10px;width: 10px;"></div>
-                <div class="col-12">
-                 <a href="#" class="common_btn">SUBMIT NOW</a>
-                </div>
+                  <div class="col-12">
+                      <label class="form-label">Name*</label>
+                      <input type="text" class="form-control" placeholder="Name" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label">Phone*</label>
+                      <input type="number" class="form-control" placeholder="Phone" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label">Email*</label>
+                      <input type="email" class="form-control" placeholder="Email" required>
+                  </div>
+                  <div style="height: 10px;width: 10px;"></div>
+                  <div class="col-12">
+                      <a href="#" class="common_btn" onclick="handleFormSubmit(event, 'electronics_gadgets_insurance')">SUBMIT NOW</a>
+                  </div>
               </form>
-            </div>
-            <div class="contact_right tab-pane fade ms-auto" id="fire_insure" role="tabpanel" aria-labelledby="fire_insure_tab" tabindex="0">
-              
+          </div>
+          <div class="contact_right tab-pane fade ms-auto" id="home_appliances_insurance" role="tabpanel" aria-labelledby="home_appliances_insurance_tab" tabindex="0">
               <form class="row g-3">
-                <div class="col-12">
-                  <label  class="form-label">Name*</label>
-                  <input type="text" class="form-control" placeholder="Name">
-                </div>
-                
-                <div class="col-md-12">
-                  <label  class="form-label">Phone*</label>
-                  <input type="number" class="form-control"  placeholder="Phone">
-                </div>
-                <div class="col-md-12">
-                  <label  class="form-label">Email*</label>
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-                <div style="height: 10px;width: 10px;"></div>
-                <div class="col-12">
-                 <a href="#" class="common_btn">SUBMIT NOW</a>
-                </div>
+                  <div class="col-12">
+                      <label class="form-label">Name*</label>
+                      <input type="text" class="form-control" placeholder="Name" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label">Phone*</label>
+                      <input type="number" class="form-control" placeholder="Phone" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label">Email*</label>
+                      <input type="email" class="form-control" placeholder="Email" required>
+                  </div>
+                  <div style="height: 10px;width: 10px;"></div>
+                  <div class="col-12">
+                      <a href="#" class="common_btn" onclick="handleFormSubmit(event, 'home_appliances_insurance')">SUBMIT NOW</a>
+                  </div>
               </form>
-            </div>
-            <div class="contact_right tab-pane fade ms-auto" id="car_insure" role="tabpanel" aria-labelledby="car_insure_tab" tabindex="0">
-              
+          </div>
+          <div class="contact_right tab-pane fade ms-auto" id="small_appliances_insurance" role="tabpanel" aria-labelledby="small_appliances_insurance_tab" tabindex="0">
               <form class="row g-3">
-                <div class="col-12">
-                  <label  class="form-label">Name*</label>
-                  <input type="text" class="form-control" placeholder="Name">
-                </div>
-                
-                <div class="col-md-12">
-                  <label  class="form-label">Phone*</label>
-                  <input type="number" class="form-control"  placeholder="Phone">
-                </div>
-                <div class="col-md-12">
-                  <label  class="form-label">Email*</label>
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-                <div style="height: 10px;width: 10px;"></div>
-                <div class="col-12">
-                 <a href="#" class="common_btn">SUBMIT NOW</a>
-                </div>
+                  <div class="col-12">
+                      <label class="form-label">Name*</label>
+                      <input type="text" class="form-control" placeholder="Name" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label">Phone*</label>
+                      <input type="number" class="form-control" placeholder="Phone" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label">Email*</label>
+                      <input type="email" class="form-control" placeholder="Email" required>
+                  </div>
+                  <div style="height: 10px;width: 10px;"></div>
+                  <div class="col-12">
+                      <a href="#" class="common_btn" onclick="handleFormSubmit(event, 'small_appliances_insurance')">SUBMIT NOW</a>
+                  </div>
               </form>
-            </div>
-            <div class="contact_right tab-pane fade ms-auto" id="health_insure" role="tabpanel" aria-labelledby="health_insure_tab" tabindex="0">
-              
+          </div>
+          <div class="contact_right tab-pane fade ms-auto" id="large_appliances_insurance" role="tabpanel" aria-labelledby="large_appliances_insurance_tab" tabindex="0">
               <form class="row g-3">
-                <div class="col-12">
-                  <label  class="form-label">Name*</label>
-                  <input type="text" class="form-control" placeholder="Name">
-                </div>
-                
-                <div class="col-md-12">
-                  <label  class="form-label">Phone*</label>
-                  <input type="number" class="form-control"  placeholder="Phone">
-                </div>
-                <div class="col-md-12">
-                  <label  class="form-label">Email*</label>
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-                <div style="height: 10px;width: 10px;"></div>
-                <div class="col-12">
-                 <a href="#" class="common_btn">SUBMIT NOW</a>
-                </div>
+                  <div class="col-12">
+                      <label class="form-label">Name*</label>
+                      <input type="text" class="form-control" placeholder="Name" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label">Phone*</label>
+                      <input type="number" class="form-control" placeholder="Phone" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label">Email*</label>
+                      <input type="email" class="form-control" placeholder="Email" required>
+                  </div>
+                  <div style="height: 10px;width: 10px;"></div>
+                  <div class="col-12">
+                      <a href="#" class="common_btn" onclick="handleFormSubmit(event, 'large_appliances_insurance')">SUBMIT NOW</a>
+                  </div>
               </form>
-            </div>
-            <div class="contact_right tab-pane fade ms-auto" id="marriage_insure" role="tabpanel" aria-labelledby="marriage_insure_tab" tabindex="0">
-              
-              <form class="row g-3">
-                <div class="col-12">
-                  <label  class="form-label">Name*</label>
-                  <input type="text" class="form-control" placeholder="Name">
-                </div>
-                
-                <div class="col-md-12">
-                  <label  class="form-label">Phone*</label>
-                  <input type="number" class="form-control"  placeholder="Phone">
-                </div>
-                <div class="col-md-12">
-                  <label  class="form-label">Email*</label>
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-                <div style="height: 10px;width: 10px;"></div>
-                <div class="col-12">
-                 <a href="#" class="common_btn">SUBMIT NOW</a>
-                </div>
-              </form>
-            </div>
+          </div>
             
           </div>
           
         </div>
       </div>
- 
+      <script>
+      function handleFormSubmit(event, formId) {
+          event.preventDefault(); // Prevent default link action
+      
+          // Get the form within the specified div
+          var form = document.querySelector(`#${formId} form`);
+          
+          if (!form) {
+              console.error('Form not found!');
+              return;
+          }
+      
+          // Retrieve form data
+          var name = form.querySelector('input[type="text"]').value;
+          var phone = form.querySelector('input[type="number"]').value;
+          var email = form.querySelector('input[type="email"]').value;
+      
+      
+          // Encode the data for URL
+          var message = `Form ID: ${encodeURIComponent(formId)}%0ACampaign ID: ${encodeURIComponent(campaignId)}%0AUser ID: ${encodeURIComponent(userId)}%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email)}`;
+      
+          // Define WhatsApp number and URL
+          var whatsappNumber = '919920787112'; // Replace with your WhatsApp number (in international format)
+          var whatsappURL = `https://wa.me/${whatsappNumber}?text=${message}`;
+      
+          // Redirect to WhatsApp
+          window.location.href = whatsappURL;
+      }
+      </script>
     </section>
     <!-- ======= (CONTACT SECTION END) ======= -->
 
